@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Task Hero Dubai | Reliable Help, Right When You Need It</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">TASK HERO <span>DUBAI</span></div>
+  <div class="menu-btn" onclick="toggleMenu()">☰</div>
+</header>
+
+<nav id="menu">
+  <a href="index.html">Home</a>
+  <a href="auto.html">Auto Tasks</a>
+  <a href="home.html">Home Tasks</a>
+  <a href="gifts.html">Gift & Event Tasks</a>
+  <a href="personal.html">Personal Tasks</a>
+  <a href="delivery.html">Private Deliveries</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+  <div class="hero-overlay">
+    <h1>Reliable Help,<br>Right When You Need It</h1>
+    <p>One platform. Many solutions. Serving all of Dubai.</p>
+    <a class="btn" href="#contact">Book a Task</a>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <h2>About Task Hero Dubai</h2>
+  <p>
+    Task Hero Dubai is a multi-service platform built to simplify life in the city.
+    From auto care to luxury gifts and personal errands, we provide fast and professional solutions.
+  </p>
+</section>
+
+<footer>
+  © Task Hero Dubai | Since 2023
+</footer>
+
+<a class="whatsapp" href="https://wa.me/971523944074" target="_blank">💬</a>
+
+<script>
+function toggleMenu() {
+  const menu = document.getElementById("menu");
+  menu.style.display = menu.style.display === "flex" ? "none" : "flex";
+  menu.style.flexDirection = "column";
+}
+</script>
+
+</body>
+</html>
